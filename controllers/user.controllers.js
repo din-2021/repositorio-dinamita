@@ -2,9 +2,8 @@ const ctrlHome = {};
 
 
 ctrlHome.rutaGet = async (req, res) => {
-    res.send('Servidor Funcionando')
+    const enviar = "Servidor Express funcionando"    
+    res.send(enviar);
 }
-
-
 
 module.exports = ctrlHome;
